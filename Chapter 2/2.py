@@ -97,3 +97,30 @@ print("5 < 3 and 3 < 3 Mai Ans: " , 5<3 and 3<3) #false
 
 print("Using not with True", not(True)) # false
 print("Using not with False", not(False)) # true
+
+# har ke jeetna walai ko baazigar khete hai or joh true ko false or false ko true mai convert karde usse not operator kahtai hai
+
+# Type Start : type tell which type is it boolean, string, int & float ... etc
+
+print(type(5)) # <class 'int'>
+print(type("abbas")) # <class 'str'>
+print(type(5.2)) # <class 'float'>
+print(type(True)) # <class 'bool'>
+
+
+# change type of openator
+
+str = "31"
+strFloat = float(str)
+strIntegor = int(str)
+
+print(str, strFloat, strIntegor) # 31, 31.0, 31
+print(type(str), type(strFloat), type(strIntegor)) # <class 'str'> <class 'float'> <class 'int'>
+
+num1 = input("Enter Number 1: ")
+num2 = input("Enter Number 2: ")
+
+print("The Number of Number 1 is", num1) #1
+print("The Number of Number 2 is", num2) #2
+print("The Sum of number1 and number2 is", num1 + num2) #it will be 12 because its a string not a number
+
